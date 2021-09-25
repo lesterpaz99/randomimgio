@@ -7,6 +7,7 @@
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
+	"homepage": "https://lesterpaz99.github.io/randomimgio",
 	"scripts": {
 		"start": "snowpack dev",
 		"build": "snowpack build",
