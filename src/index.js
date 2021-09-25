@@ -1,6 +1,10 @@
-/**
- * This file is just a silly example to show everything working in the browser.
- * When you're ready to start on your site, clear the file. Happy hacking!
- **/
+import { toggleMessageValue, createImage } from './createImage.mjs';
+import { removeImages } from './removeImg.mjs';
 
-console.log('Happy hacking :)')
+toggleMessageValue();
+
+const fetchImageBtn = document.querySelector('#fetchImageBtn');
+fetchImageBtn.addEventListener('click', createImage);
+
+const cleanBtn = document.querySelector('#clean-btn');
+cleanBtn.addEventListener('click', removeImages);
