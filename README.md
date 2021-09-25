@@ -1,6 +1,6 @@
 # randomImg.io
 
-A plugin for lazy load images. This project use the unsplash API to fetch random images.
+A small plugin for lazy load images. This project use the unsplash API to fetch random images.
 
 .
 
