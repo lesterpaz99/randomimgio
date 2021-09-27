@@ -24,7 +24,7 @@
 	</head>
 	<body>
 		<div class="py-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-			<div class="text-center">
+			<header class="text-center" id="header">
 				<p
 					class="
 						text-base
@@ -55,11 +55,11 @@
 					Tailwind. It also includes Prettier and automatic publish to GitHub
 					pages using GitHub Actions. Learn more:
 				</p> -->
-			</div>
+			</header>
 			<div class="flex justify-center gap-4 my-4">
 				<button
 					class="bg-green-300 p-4 rounded-md my-4 hover:bg-green-400"
-					id="fetchImageBtn"
+					id="fetch-image"
 				>
 					Load image
 				</button>
@@ -70,7 +70,24 @@
 					Clean
 				</button>
 			</div>
-			<div class="flex flex-col justify-center gap-4" id="images"></div>
+			<div class="flex flex-col justify-center gap-2" id="images"></div>
+			<div
+				class="fixed right-8 bottom-8 flex flex-col items-center hidden"
+				id="buttons"
+			>
+				<button
+					class="bg-green-300 w-12 h-12 rounded-full my-2 hover:bg-green-400"
+					id="go-up"
+				>
+					<a href="#header">▲</a>
+				</button>
+				<button
+					class="bg-green-300 p-4 rounded-md my-2 hover:bg-green-400"
+					id="load-new-image"
+				>
+					Load new image
+				</button>
+			</div>
 		</div>
 
 		<!-- Add more scripts here -->
